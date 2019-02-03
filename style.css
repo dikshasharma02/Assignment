@@ -1,0 +1,155 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-brand{
+  padding-left: 220px;
+  margin-top: 14px;
+}
+.navbar-toggle {
+  color: #fff;
+  margin-top: 9px;
+
+}
+.banner{
+background: url(imag/header.jpg) no-repeat 0px 0px;
+background-size: cover;
+text-align: center;
+min-height: 750px;
+}
+
+#myNavbar{
+  padding-right: -1%;
+}
+.navbar-nav{
+  float:right;
+  margin-top: 18px;
+
+  color:#fff;
+}
+
+.navbar-nav a{
+  color:#fff;
+  font-size: 20px;
+
+  margin-top: 5px;
+
+}
+.banner-info {
+    margin-top: 150px;
+    padding: 119px;
+    padding-left: 0px
+}
+.banner-info h1 {
+    margin: 0;
+    margin-left: -388px;
+    margin-bottom: 0px;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.banner-info p {
+    margin: 30px auto 50px auto;
+    margin-left: 38px;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 55%;
+}
+.bodypart{
+  background:url(imag/bodypart.jpg) no-repeat;
+  background-size: cover;
+  min-height: 750px;
+    padding: 80px 0;
+    margin-top: -50px;
+}
+/* .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column img{
+  height:200px;
+  width:100%;
+} */
+
+.col-md-6 h1{
+  color: green;
+}
+#food{
+  margin-top: 100px;
+}
+ .col-md-2 h4{
+   color:white;
+ } 
+ .col-md-2{
+  width: 26.666667%;
+ }
+ #foodicons{
+  margin-top: 100px;
+ }
+.contact{
+  background:url(imag/walk.jpg);
+  background-size: cover;
+  text-align: center;
+  min-height: 750px;
+
+}
+#text{
+  margin-top: 180px;
+  margin-left: 179px;
+}
+
+#text1{
+  width:500px;
+  height:80px;
+  padding: 5px;
+  background-color: black;
+  color:white;
+}
+#text2{
+  width:500px;
+  height:30px;
+  font-size: 16px;
+  background-color: black;
+  color:white;
+  margin-top: 3px;
+}
+#social-icons .col-md-3{
+  width:17%;
+}
+
+#social-icons{
+  margin-top:143px;
+  margin-left: 151px;
+}
+
+#footer{
+  background-color:brown;
+  color:white;
+  padding: 100px;
+  text-align: center;
+}
